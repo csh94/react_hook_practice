@@ -11,7 +11,12 @@ const contents = [
         content: "I'm the Section 2"
     }
 ];
-
+/*
+useState의 
+첫번째는 state를 초기화 시켜주고,
+두번째는 1번째 아이템인 currentIndex는 index가 될꺼고,
+그리고 2번째 아이템인 setCurrentIndex는 value를 바꿔줄꺼야. 그게 전부야.
+*/
 const useTabs = (initialTab, allTabs) => {
     const [currentIndex, setCurrentIndex] = useState(initialTab);
     if(!allTabs || !Array.isArray(allTabs)){
