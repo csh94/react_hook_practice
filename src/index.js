@@ -5,7 +5,10 @@ import ReactDOM from 'react-dom';
 //import App from './App_useTabs';
 //import App from './App_useEffect';
 //import App from './App_useTitle';
-import App from './App_useClick';
+//import App from './App_useClick';
+//import App from './App_useBeforeLeave';
+//import App from './App_useFadeIn';
+import App from './App_useNetwork';
 
 ReactDOM.render(
     <App />, document.getElementById('root')
