@@ -10,7 +10,8 @@ import ReactDOM from 'react-dom';
 //import App from './App_useFadeIn';
 //import App from './App_useNetwork';
 //import App from './App_useScroll';
-import App from './App_useFullscreen';
+//import App from './App_useFullscreen';
+import App from './App_useNotification';
 
 ReactDOM.render(
     <App />, document.getElementById('root')
